@@ -19,4 +19,4 @@ got
     },
   })
   .then((response) => console.log(response.body))
-  .catch((error) => setFailed(error.response.body));
+  .catch((error) => setFailed(error.response?.body ?? error.message));

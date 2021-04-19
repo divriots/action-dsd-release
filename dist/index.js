@@ -13764,7 +13764,7 @@ source_default().post(`${config.host}/${config.apiPath}/github-actions/release`,
     },
 })
     .then((response) => console.log(response.body))
-    .catch((error) => (0,core.setFailed)(error.response.body));
+    .catch((error) => { var _a, _b; return (0,core.setFailed)((_b = (_a = error.response) === null || _a === void 0 ? void 0 : _a.body) !== null && _b !== void 0 ? _b : error.message); });
 
 })();
 
