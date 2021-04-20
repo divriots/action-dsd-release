@@ -13750,14 +13750,19 @@ const config = {
 
 
 
-const token = (0,core.getInput)("repo-token");
+const providedRepoToken = (0,core.getInput)("repo-token");
+const repoToken = providedRepoToken
+    ? `${github.context.payload.repository.owner.login}:${providedRepoToken}`
+    : undefined;
 const componentId = (0,core.getInput)("component-id");
 const apiToken = (0,core.getInput)("api-token");
 const version = (0,core.getInput)("version");
 source_default().post(`${config.host}/${config.apiPath}/github-actions/release`, {
+    headers: {
+        Authorization: `Bearer ${apiToken}`,
+    },
     json: {
-        apiToken,
-        repoToken: `${github.context.payload.repository.owner.login}:${token}`,
+        repoToken,
         wcId: componentId,
         sha1: github.context.payload.after,
         version,
