@@ -1,6 +1,6 @@
 {
   "name": "action-dsd-release",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Github Action for releasing DSD-made Design Systems",
   "main": "dist/index.js",
   "scripts": {
