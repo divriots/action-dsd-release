@@ -8,7 +8,8 @@ This action releases a Design System from https://design-systems.dev
 
 **Required: yes**
 
-This is the API token you can generate on https://design-systems.dev
+This is the API token you can generate on https://design-systems.dev. To get/generate it, go to the settings of your organization,
+then look for the **REST API Token** option available in the integrations tab
 
 We recommend you set it up as an action secret and use it as documented in the example section
 
@@ -25,10 +26,10 @@ This is the GitHub generated token for the action. It is automatically generated
 **Required: yes**
 
 This is the ID of the Design System you want to release. It can easily be extracted from the URL that you
-are using when working on your Design System.
+are using when working on your Design System
 
-For example, with https://design-systems.dev//edit/m7rLPfVrjtzOj7LGio3o/story-layout/src/index.tsx,
-_m7rLPfVrjtzOj7LGio3o_ will be your ID.
+For example, with https://design-systems.dev/edit/m7rLPfVrjtzOj7LGio3o/story-layout/src/index.tsx,
+_m7rLPfVrjtzOj7LGio3o_ will be your ID
 
 ### version
 
