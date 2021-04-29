@@ -40,7 +40,7 @@ This is the version you want to release. You can provide the version you want, e
 ## Example usage
 
 ```
-uses: actions/action-dsd-release@v0.0.1
+uses: actions/action-dsd-release@v0.0.3
 with:
   api-token: ${{ secrets.DSD_API_TOKEN }}
   repo-token: ${{ secrets.GITHUB_TOKEN }}
