@@ -5,7 +5,7 @@ branding:
   color: 'purple'
 inputs:
   api-token:
-    description: "DSD API token - can be generated from https://design-systems.dev"
+    description: "DSD API token - can be generated from https://backlight.dev"
     required: true
   repo-token:
     description: "Token to use to authorize DSD to access Github. Typically the GITHUB_TOKEN secret"

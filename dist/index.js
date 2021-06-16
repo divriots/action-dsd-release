@@ -13741,7 +13741,7 @@ var source_default = /*#__PURE__*/__nccwpck_require__.n(source);
 ;// CONCATENATED MODULE: ./src/config.ts
 var _a, _b;
 const config = {
-    host: (_a = process.env.HOST) !== null && _a !== void 0 ? _a : "https://design-systems.dev",
+    host: (_a = process.env.HOST) !== null && _a !== void 0 ? _a : "https://backlight.dev",
     apiPath: (_b = process.env.API_PATH) !== null && _b !== void 0 ? _b : "api/v1",
 };
 
