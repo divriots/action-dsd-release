@@ -19,7 +19,7 @@ got
     json: {
       repoToken,
       wcId: componentId,
-      sha1: context.payload.after,
+      sha1: context.sha,
       version,
     },
   })
