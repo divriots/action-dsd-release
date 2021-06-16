@@ -1,7 +1,7 @@
 {
   "name": "action-dsd-release",
   "version": "0.0.3",
-  "description": "Github Action for releasing DSD-made Design Systems",
+  "description": "Github Action for releasing Backlight-made Design Systems",
   "main": "dist/index.js",
   "scripts": {
     "build": "ncc build src/index.ts"
@@ -9,7 +9,7 @@
   "keywords": [
     "Actions",
     "GitHub",
-    "DSD",
+    "Backlight",
     "Design Systems",
     "Release"
   ],
@@ -23,6 +23,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
+    "@vercel/ncc": "^0.28.6",
     "eslint": "^7.24.0",
     "prettier": "^2.2.1",
     "typescript": "^4.2.4"

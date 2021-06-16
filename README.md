@@ -1,4 +1,4 @@
-# DSD release action
+# Backlight release action
 
 This action releases a Design System from https://backlight.dev
 

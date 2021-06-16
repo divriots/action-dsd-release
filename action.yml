@@ -1,14 +1,14 @@
-name: "DSD Release"
-description: "Releases your DSD Design Systems"
+name: "Backlight Release"
+description: "Release your Design Systems"
 branding:
   icon: 'send'  
   color: 'purple'
 inputs:
   api-token:
-    description: "DSD API token - can be generated from https://backlight.dev"
+    description: "Backlight API token - can be generated from https://backlight.dev"
     required: true
   repo-token:
-    description: "Token to use to authorize DSD to access Github. Typically the GITHUB_TOKEN secret"
+    description: "Token to use to authorize Backlight to access Github. Typically the GITHUB_TOKEN secret"
     required: false
   component-id:
     description: "ID of the component to release - TODO explain how to get it"
